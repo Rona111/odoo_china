@@ -4,3 +4,4 @@ This repo is for Odoo localization modules in China and support by China Odooer.
 该仓库包含以下模块：
 * 百度地图
 * web_m2x_options (隐藏m2o/m2m字段的Create and Edit选项)
+* report_xls (导出excel报表)
