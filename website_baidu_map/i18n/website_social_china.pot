@@ -1,0 +1,161 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_baidu_map
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0e-20151202\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-16 09:38+0000\n"
+"PO-Revision-Date: 2016-03-16 09:38+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.view_website_config_settings
+msgid "/website_baidu_map/static/src/img/weixin_qrcode.jpg"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_config_settings_baidu_map_AK
+msgid "Baidu map AK"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_baidu_map_AK
+msgid "Baidu map ak"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.view_website_config_settings
+msgid "China Social Media"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_cmd
+msgid "Cmd"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_social_china.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_id
+msgid "ID"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_res_company_latitude
+msgid "Latitude"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_res_company_longitude
+msgid "Longitude"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_china_website_share_to_name
+msgid "Name"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.view_website_config_settings
+msgid "Share To"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_config_settings_share_to_ids
+#: model:ir.model.fields,field_description:website_social_china.field_website_share_to_ids
+msgid "Share To Sites"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_share_to_str
+msgid "Share to str"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_config_settings_social_sina
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_sina
+msgid "Sina Account"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_social_china.model_website
+msgid "Website"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_social_china.field_website_config_settings_social_weixin_qrcode
+#: model:ir.model.fields,field_description:website_social_china.field_website_social_weixin_qrcode
+msgid "Weixin QR Code"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.view_website_config_settings
+msgid "http://weibo.com/"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_social_china.model_website_config_settings
+msgid "website.config.settings"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_social_china.model_website_social_china_website_share_to
+msgid "website_baidu_map.website_share_to"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.s_share
+msgid "分享到QQ好友"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_social_china.s_share
+msgid "分享到QQ空间"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,help:website_social_china.field_website_baidu_map_AK
+#: model:ir.model.fields,help:website_social_china.field_website_config_settings_baidu_map_AK
+msgid "百度地图的访问授权。可以在这里申请 http://lbsyun.baidu.com/apiconsole/key"
+msgstr ""
+

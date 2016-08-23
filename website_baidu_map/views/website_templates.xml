@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="baidu_map" name="Baidu map">
+            <script type="text/javascript" t-attf-src="http://api.map.baidu.com/api?v=2.0&amp;ak={{baidu_ak}}"></script>
+            <div id="allmap" style="height:400px"/>
+            <script type="text/javascript">
+                function show_map(){
+                    var longitude = "<t t-esc="longitude"/>"
+                    var latitude = "<t t-esc="latitude"/>"
+                    var company_address = "<t t-esc="address"/>"
+                    // res_company.country_id.name or
+                    var point;
+                    var marker = '';
+                    if (longitude != "" &amp;&amp; latitude != "")
+                    {
+                        point = new BMap.Point(longitude,latitude);
+                        marker = new BMap.Marker(point);
+                    }
+                    else if(company_address)
+                    {
+                        point = company_address;
+                    }
+                    else
+                    {
+                        return;
+                    }
+
+                    // 百度地图API功能
+                    var map = new BMap.Map("allmap");
+
+                    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+                    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+                    var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+                    /*缩放控件type有四种类型:
+                    BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮
+                    */
+
+                    map.addControl(top_left_control);
+                    map.addControl(top_left_navigation);
+                    map.addControl(top_right_navigation);
+
+                    map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
+                    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+
+                    //var marker = new BMap.Marker(point);  // 创建标注
+                    //map.addOverlay(marker);              // 将标注添加到地图中
+                    map.centerAndZoom(point, 13);
+
+                    if(marker){
+                        map.addOverlay(marker);               // 将标注添加到地图中
+                        marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+                    }
+                }
+
+                show_map();
+            </script>
+        </template>
+
+        <template id="company_description" name="Company Description" inherit_id="website.company_description"
+                  customize_show="True">
+            <xpath expr="//a" position="replace">
+                <t t-set="baidu_ak" t-value="website.baidu_map_AK"/>
+                <t t-set="longitude" t-value="res_company.longitude"/>
+                <t t-set="latitude" t-value="res_company.latitude"/>
+                <t t-set="address" t-value="'%s%s%s%s%s' % ('',res_company.state_id.name or '',res_company.city or '',res_company.street or '',res_company.street2 or '')"/>
+                <t t-call="website_baidu_map.baidu_map"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

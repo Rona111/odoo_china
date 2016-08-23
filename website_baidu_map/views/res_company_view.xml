@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_company_form" model="ir.ui.view">
+            <field name="name">base.view_company_form</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <!--<div class="o_address_format" position="after">-->
+                    <!--<label for="longitude" string="坐标"/>-->
+                    <!--<div class="o_address_format">-->
+                        <!--<field name="longitude" style="width: 49%;margin-right: 2%;"/>-->
+                        <!--<field name="latitude" style="width: 49%;"/>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="o_address_format" position="after">
+                    <field name="longitude" />
+                    <field name="latitude" class="o_latitude"/>
+                    <a href="http://api.map.baidu.com/lbsapi/getpoint/index.html" target="_blank">
+                        百度在线拾取坐标
+                    </a>
+                    <newline/>
+                </div>
+            </field>
+        </record>
+    </data>
+</openerp>
