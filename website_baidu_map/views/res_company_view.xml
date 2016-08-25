@@ -6,6 +6,7 @@
             <field name="model">res.company</field>
             <field name="inherit_id" ref="base.view_company_form"/>
             <field name="arch" type="xml">
+                <!--这里我本来想实现跟官方类似的效果：一行里面放两个单元格，显示经度、纬度。但是搞不定。-->
                 <!--<div class="o_address_format" position="after">-->
                     <!--<label for="longitude" string="坐标"/>-->
                     <!--<div class="o_address_format">-->
