@@ -3,7 +3,7 @@
     'name': "website baidu map",
     'version': '1.0',
     'depends': ["website"],
-    'author': "ting wang (39181819@qq.com)",
+    'author': "糖葫芦 (39181819@qq.com)",
     'category': '',
 
     'data': [
