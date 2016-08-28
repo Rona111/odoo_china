@@ -3,11 +3,9 @@
     'name': "website baidu map",
     'version': '1.0',
     'depends': ["website"],
-    'author': "糖葫芦(39181819@qq.com)",
+    'author': "ting wang (39181819@qq.com)",
     'category': '',
-    'description': """
-1. 联系我们网页上的地图替换成百度地图
-    """,
+
     'data': [
         "views/website_config_view.xml",
         "views/website_templates.xml",

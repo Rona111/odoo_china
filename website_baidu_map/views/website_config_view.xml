@@ -7,13 +7,13 @@
             <field name="inherit_id" ref="website.view_website_config_settings"/>
             <field name="arch" type="xml">
                 <group name="social" position="after">
-                    <group name="social_china" string="China Social Media">
+                    <group name="social_china" string="Map">
                         <label for="baidu_map_AK"/>
                         <div name="baidu_map_AK">
                             <div class="oe_inline">
                                 <field name="baidu_map_AK" placeholder=""/>
                             </div>
-                            <a href="http://lbsyun.baidu.com/" target="_blank">注册百度地图AK</a>
+                            <a href="http://lbsyun.baidu.com/" target="_blank">Get baidu map AK</a>
                         </div>
                     </group>
                 </group>
