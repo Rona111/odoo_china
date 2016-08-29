@@ -4,7 +4,7 @@
     'version': '9.0.1.0.0',
     'depends': ["website"],
     'author': "糖葫芦 (39181819@qq.com)",
-    'category': '',
+    'category': 'website tool',
     'license': 'AGPL-3',
     'data': [
         "views/website_config_view.xml",
