@@ -27,6 +27,14 @@ Usage
 
 设置好之后，打开odoo网站，在联系我们页面，你会发现原来的谷歌地图已经替换为百度地图了。
 
+Bug Tracker
+===========
+
+Bugs are tracked on `GitHub Issues
+<https://github.com/Rona111/odoo_china/issues>`_. In case of trouble, please
+check there if your issue has already been reported. If you spotted it first,
+help us smashing it by providing a detailed and welcomed feedback.
+
 Credits
 =======
 
