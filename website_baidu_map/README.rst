@@ -1,0 +1,44 @@
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
+
+=================
+website baidu map
+=================
+
+将网站页面上，"联系我们" 选项下的谷歌地图替换成百度地图。
+
+Installation
+============
+
+正常安装即可
+
+Configuration
+=============
+
+请按以下步骤进行设置:
+
+#. 在website admin菜单里，填入您的百度地图AK。如果没有注册，点击旁边的连接，会打开注册页面。
+
+#. 设置公司的经度、纬度。如果你不知道你的公司位置的坐标，点击旁边的连接，会打开百度地图坐标选取页面。
+
+Usage
+=====
+
+设置好之后，打开odoo网站，在联系我们页面，你会发现原来的谷歌地图已经替换为百度地图了。
+
+Bug Tracker
+===========
+
+Bugs are tracked on `GitHub Issues
+<https://github.com/Rona111/odoo_china/issues>`_. In case of trouble, please
+check there if your issue has already been reported. If you spotted it first,
+help us smashing it by providing a detailed and welcomed feedback.
+
+Credits
+=======
+
+Contributors
+------------
+
+* 糖葫芦 <39181819@qq.com>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_website_config_settings" model="ir.ui.view">
+            <field name="name">Website settings</field>
+            <field name="model">website.config.settings</field>
+            <field name="inherit_id" ref="website.view_website_config_settings"/>
+            <field name="arch" type="xml">
+                <group name="social" position="after">
+                    <group name="social_china" string="Map">
+                        <label for="baidu_map_AK"/>
+                        <div name="baidu_map_AK">
+                            <div class="oe_inline">
+                                <field name="baidu_map_AK" placeholder=""/>
+                            </div>
+                            <a href="http://lbsyun.baidu.com/" target="_blank">Get baidu map AK</a>
+                        </div>
+                    </group>
+                </group>
+
+            </field>
+        </record>
+    </data>
+</odoo>

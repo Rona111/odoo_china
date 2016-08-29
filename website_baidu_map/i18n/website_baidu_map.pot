@@ -1,0 +1,68 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_baidu_map
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-28 13:30+0000\n"
+"PO-Revision-Date: 2016-08-28 13:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_baidu_map.field_website_config_settings_baidu_map_AK
+msgid "Baidu map AK"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_baidu_map.field_website_baidu_map_AK
+msgid "Baidu map ak"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_baidu_map.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_baidu_map.view_website_config_settings
+msgid "Get baidu map AK"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_baidu_map.field_res_company_latitude
+msgid "Latitude"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,field_description:website_baidu_map.field_res_company_longitude
+msgid "Longitude"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.ui.view,arch_db:website_baidu_map.view_website_config_settings
+msgid "Map"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_baidu_map.model_website
+msgid "Website"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model.fields,help:website_baidu_map.field_website_baidu_map_AK
+#: model:ir.model.fields,help:website_baidu_map.field_website_config_settings_baidu_map_AK
+msgid "You can get access to baidu map,use this url: http://lbsyun.baidu.com/apiconsole/key"
+msgstr ""
+
+#. module: website_baidu_map
+#: model:ir.model,name:website_baidu_map.model_website_config_settings
+msgid "website.config.settings"
+msgstr ""
+
