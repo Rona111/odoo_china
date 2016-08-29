@@ -5,7 +5,7 @@
     'depends': ["website"],
     'author': "糖葫芦 (39181819@qq.com)",
     'category': '',
-
+    'license': 'AGPL-3',
     'data': [
         "views/website_config_view.xml",
         "views/website_templates.xml",
