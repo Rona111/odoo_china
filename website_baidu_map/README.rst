@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==============
+=================
 website baidu map
-==============
+=================
 
 联系我们网页上的地图替换成百度地图
 
